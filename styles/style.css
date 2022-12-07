@@ -1,0 +1,50 @@
+@import url(./normalize.css);
+@import url(./reset.css);
+
+/* 폰트 */
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 전체 영역 */
+body{
+  background: rbga(242,242,180);
+  font-family: 'Pretendard-Regular';
+}
+.header, .visual, .main, .slogan, .footer-inner{
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* 헤더 */
+.header{
+  background: skyblue;
+  height: 15vh;
+}
+
+/* 비주얼 */
+.visual{
+  background: plum;
+  height: 10vh;
+}
+
+/* 메인 */
+.main{
+  background: lemonchiffon;
+  height: 50vh;
+}
+
+/* 슬로건 */
+.slogan{
+  background: lawngreen;
+  height: 10vh;
+}
+
+/* 푸터 */
+.footer{
+  background: darkcyan;
+  height: 15vh;
+}
